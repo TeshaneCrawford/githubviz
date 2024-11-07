@@ -13,18 +13,18 @@ export default defineNuxtConfig({
   },
   modules: ['@nuxt/eslint', '@vueuse/nuxt',],
 
-    // https://eslint.nuxt.com
-    eslint: {
-      config: {
-        stylistic: {
-          quotes: 'single',
-        },
+  // https://eslint.nuxt.com
+  eslint: {
+    config: {
+      stylistic: {
+        quotes: 'single',
       },
     },
+  },
 
-    css: [
-      '@/assets/css/main.css',
-    ],
+  css: [
+    '@/assets/css/main.css',
+  ],
 
-    ssr: true,
+  ssr: true,
 })
